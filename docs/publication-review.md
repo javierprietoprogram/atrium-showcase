@@ -22,6 +22,14 @@ Review date: 25 October 2026. This review covers the public showcase, not a secu
 
 No secret or private-data findings remained in the publication material. The only email address in commit metadata is a GitHub no-reply author address; no personal contact address is included.
 
+## Brand alignment review
+
+The visual update uses the public website’s blue/neutral palette and its already-public blue logo. The unmodified logo is embedded locally; no private source repository or production environment was accessed for this update. No remote fonts, scripts or runtime requests were introduced.
+
+Desktop interactions were checked again. Mobile overview, filters, status controls, routines and the draft dialog were verified at 390px; 320px and 768px layouts were checked for page overflow. The table scrolls inside its card on narrow screens. The desktop image was regenerated after resetting all demo state.
+
+Publication checks were repeated against the complete public working tree and Git history. The only embedded binary is the public logo, and the screenshot contains the same fictional fixtures. Product claims, architecture documentation, JavaScript behavior and synthetic data are unchanged.
+
 ## Deliberately excluded
 
 Production source and assets; environment files; keys and authentication settings; project identifiers and private URLs; database schemas and migrations; hotel/customer/user data; prompts and proprietary workflow rules; pricing, plans, internal issues and analytics; production Git history.

@@ -30,6 +30,12 @@ Desktop interactions were checked again. Mobile overview, filters, status contro
 
 Publication checks were repeated against the complete public working tree and Git history. The only embedded binary is the public logo, and the screenshot contains the same fictional fixtures. Product claims, architecture documentation, JavaScript behavior and synthetic data are unchanged.
 
+## Final presentation review
+
+The same public logo now lives in `demo/assets/atrium-logo-blue.png`; its bytes are unchanged. GitHub Pages publishes only `demo/` as a static artifact, opening the demo at the site root. No production services, new application logic or third-party runtime resources are involved.
+
+Desktop/mobile presentation, existing interactions, screenshot consistency, local links and the complete public working tree and Git history were checked again. Product claims, synthetic fixtures and architecture are unchanged; the runtime-resource description now accounts for the separate logo asset. No private repository was accessed.
+
 ## Deliberately excluded
 
 Production source and assets; environment files; keys and authentication settings; project identifiers and private URLs; database schemas and migrations; hotel/customer/user data; prompts and proprietary workflow rules; pricing, plans, internal issues and analytics; production Git history.

@@ -41,4 +41,4 @@ The codebase targets a native iOS client and a Supabase-hosted backend, with ser
 
 ## Public demo
 
-The demo is static HTML/CSS/JavaScript, with in-memory synthetic records and no dependencies. Its only runtime resources are the three files in `demo/`. It has no backend, analytics, cookies, external fonts or persistence.
+The demo is static HTML/CSS/JavaScript, with in-memory synthetic records and no dependencies. Its only runtime resources are the static files in `demo/`. It has no backend, analytics, cookies, external fonts or persistence.

@@ -24,7 +24,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   outline-offset: 3px;
 }
 
-/* Local copy of the already-public logo is embedded in HTML to keep the demo offline. */
+/* The already-public logo is served locally to keep the demo offline. */
 .sidebar {
   width: 226px;
   flex-shrink: 0;

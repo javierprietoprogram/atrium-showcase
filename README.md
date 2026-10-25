@@ -2,7 +2,7 @@
 
 Hotel operations software for reporting incidents, coordinating departments and following work through to completion.
 
-[Public website](https://www.atriumforhotels.com/) · [Product](docs/product.md) · [Architecture](docs/architecture.md) · [Development notes](docs/development-notes.md)
+[**Live demo**](https://javierprietoprogram.github.io/atrium-showcase/) · [Public website](https://www.atriumforhotels.com/) · [Product](docs/product.md) · [Architecture](docs/architecture.md) · [Development notes](docs/development-notes.md)
 
 ![Recreated Atrium operations concept with synthetic data](assets/operations-demo.jpg)
 
@@ -21,7 +21,7 @@ Representative areas of work:
 
 ## Try the public demo
 
-Open [`demo/index.html`](demo/index.html) in a browser. No install, account or network connection is required. Or serve it locally:
+Try the [live demo](https://javierprietoprogram.github.io/atrium-showcase/) or open [`demo/index.html`](demo/index.html) in a browser. No install, account or network connection is required. Or serve it locally:
 
 ```sh
 python3 -m http.server 8000 --directory demo

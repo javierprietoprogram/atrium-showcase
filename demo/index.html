@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Atrium hotel operations concept demo. All data is synthetic.">
+  <title>Atrium — operations concept</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar"><a class="brand" href="#overview"><span class="mark">A</span> atrium<span class="brand-dot">.</span></a><p class="side-label">WORKSPACE</p><p class="workspace">Demo property <span>Fictional workspace</span></p>
+    <nav aria-label="Demo views"><button data-view="overview" aria-pressed="true"><span aria-hidden="true">◫</span> Overview</button><button data-view="incidents" aria-pressed="false"><span aria-hidden="true">▤</span> Incidents</button><button data-view="routines" aria-pressed="false"><span aria-hidden="true">✓</span> Routines</button></nav>
+    <div class="side-note"><span class="live-dot"></span> Public concept demo<p>Synthetic data.<br>No services connected.</p></div>
+  </aside>
+  <main>
+    <header><span>OPERATIONS / <span id="breadcrumb">OVERVIEW</span></span><span class="demo-badge">SYNTHETIC DATA</span></header>
+    <section class="intro"><div><p class="eyebrow">A CLEARER VIEW OF THE DAY</p><h1 id="page-title">Keep the next step visible.</h1><p id="page-description">One place for the issues and routines that need your team's attention.</p></div><button class="primary" id="voice-button">Explore a voice draft <span aria-hidden="true">↗</span></button></section>
+    <section class="stats" aria-label="Synthetic workspace summary"><article><span>Open incidents</span><strong id="open-count"></strong><small>Ready for the next action</small></article><article><span>In progress</span><strong id="progress-count"></strong><small>Work already under way</small></article><article><span>Routines completed</span><strong id="routine-count"></strong><small>From today's demo checklist</small></article></section>
+    <div id="content"></div>
+    <footer><span>Atrium / Public showcase</span><span>Illustrative workflows · Reload to reset</span></footer>
+  </main>
+  <dialog id="voice-dialog" aria-labelledby="draft-title"><div class="dialog-top"><span class="eyebrow">VOICE → REVIEWABLE DRAFT</span><button id="close-dialog" aria-label="Close draft">×</button></div><h2 id="draft-title">Less typing. Still your decision.</h2><p class="muted">Fixed example. No microphone, transcription or AI service is running.</p><blockquote>“The light in the east corridor is flickering. Could maintenance take a look?”</blockquote><dl><dt>Suggested title</dt><dd>Flickering corridor light</dd><dt>Location</dt><dd>East corridor</dd><dt>Department</dt><dd>Maintenance</dd></dl><div class="review-note">In the product, staff review and edit the draft before submitting. This example does not create an incident.</div></dialog>
+  <script src="app.js"></script>
+</body></html>
